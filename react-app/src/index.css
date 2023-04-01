@@ -1,13 +1,59 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.btn-1 {
+  background-color: #b5f1cc;
+  border-style: none;
+  padding: 2px;
+  width: 20%;
+  margin: 2px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+}
+.btn-2 {
+  background-color: #e5fdd1;
+  border-style: none;
+  padding: 2px;
+  width: 20%;
+  margin: 2px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+}
+.div1 {
+  background-color: #c9f4aa;
+  height: 40px;
+  width: 100%;
+  font-size: 40px;
+  padding: 5px 0px;
+  text-align: left;
+  font-family: "Space Grotesk", sans-serif;
+  position: fixed;
+  display: block;
+}
+.form {
+  background-color: #bbd6b8;
+  margin: 10px auto;
+  width: 40%;
+  font-family: "Space Grotesk", sans-serif;
+  color: #2c3333;
+}
+img {
+  display: inline;
+  margin-left: 5px;
+}
+.heading1 {
+  display: inline;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 100px;
 }

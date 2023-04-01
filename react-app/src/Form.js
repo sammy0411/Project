@@ -18,7 +18,7 @@ function Form(props) {
   };
   if (props.form == 0) {
     return (
-      <div>
+      <div className="form">
         <form>
           <label for="1"> Yield</label>
           <input type="radio" name="Form" id="1" onClick={handleClick} />

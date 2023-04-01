@@ -10,16 +10,23 @@ function App() {
   if (form == 0) {
     return (
       <div className="App">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
+          rel="stylesheet"
+        ></link>
         <Navbar />
         <p> This is a farmer app</p>
         <button
           onClick={() => {
             setToggle(!toggle);
           }}
+          className="btn-1"
         >
           Get Started
         </button>
-        <button> Livestock </button>
+        <button className="btn-2"> Livestock </button>
 
         {toggle ? <Form form={form} setForm={setForm} /> : null}
       </div>
@@ -27,6 +34,12 @@ function App() {
   } else {
     return (
       <div className="App">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
+          rel="stylesheet"
+        ></link>
         <Navbar />
         <p> This is a farmer app</p>
 
