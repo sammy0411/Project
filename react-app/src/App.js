@@ -53,3 +53,6 @@ function App() {
 export default App;
 
 // All that remains is backend by making security and authorization , api fetch , route setup , backend database then we are done
+// Goverment policies what you are eligible for
+// End : Language , Dark mode
+// Major Crops to be added based on google cloud / google maps and get info from wiki

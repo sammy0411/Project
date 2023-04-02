@@ -11,7 +11,9 @@ function Component() {
       <h1 className="heading1"> FarmIfy</h1>
       <div className="div1">
         {" "}
-        <span>Home</span> <span>Weather Forecast</span> <span> About Us</span>
+        <span>Home</span> <span>Weather Forecast</span>{" "}
+        <span> Goverment Policies</span> <span> Major Crops</span>{" "}
+        <span> About Us</span>
       </div>
     </div>
   );
