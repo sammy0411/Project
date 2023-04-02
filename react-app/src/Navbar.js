@@ -9,7 +9,10 @@ function Component() {
         alt="This should be an image"
       />
       <h1 className="heading1"> FarmIfy</h1>
-      <div className="div1"> Home</div>
+      <div className="div1">
+        {" "}
+        <span>Home</span> <span>Weather Forecast</span> <span> About Us</span>
+      </div>
     </div>
   );
 }

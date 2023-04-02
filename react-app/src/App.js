@@ -17,7 +17,7 @@ function App() {
           rel="stylesheet"
         ></link>
         <Navbar />
-        <p> This is a farmer app</p>
+        {/* <p> This is a farmer app</p> */}
         <button
           onClick={() => {
             setToggle(!toggle);
@@ -51,3 +51,5 @@ function App() {
 // Updates : Background image to be added
 // States must be 0,0 : 0,1 : 1,0
 export default App;
+
+// All that remains is backend by making security and authorization , api fetch , route setup , backend database then we are done
