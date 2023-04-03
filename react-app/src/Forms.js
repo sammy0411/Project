@@ -65,7 +65,7 @@ function Forms(props) {
               });
               // console.log(h);
               return (
-                <option>
+                <option disabled={h ? 1 : 0}>
                   {" "}
                   {curr_val.name} {h ? "✔" : " "}{" "}
                 </option>
