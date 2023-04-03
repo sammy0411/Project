@@ -33,6 +33,7 @@ function App() {
     );
   } else {
     return (
+      // Making a form related to soil health in this
       <div className="App">
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -41,7 +42,6 @@ function App() {
           rel="stylesheet"
         ></link>
         <Navbar />
-        <p> This is a farmer app</p>
 
         {toggle ? <Form form={form} setForm={setForm} /> : null}
       </div>

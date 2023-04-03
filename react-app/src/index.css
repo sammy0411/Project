@@ -42,7 +42,7 @@ code {
   display: block;
 }
 .form {
-  background-color: #dae2b6;
+  background-color: #c9f4aa;
   margin: 10px auto;
   width: 40%;
   font-family: "Space Grotesk", sans-serif;
@@ -68,4 +68,40 @@ input[type="submit"] {
 }
 span {
   border: solid 1px black;
+}
+.del {
+  position: absolute;
+  right: 50px;
+  /* margin-top: auto; */
+  /* margin: 5px auto */
+  /* margin-bottom: 15 */
+  margin-top: 4px;
+  border-style: none;
+  background-color: #fcc2fc;
+  font-family: "Space Grotesk", sans-serif;
+}
+.selected {
+  display: block;
+  width: 100%;
+  /* border-radius: 10px; */
+  /* padding: auto; */
+}
+.temp {
+  position: relative;
+}
+.spacing {
+  margin-bottom: 5px;
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 8px;
+  width: 75%;
+  opacity: 0.8;
+  background-color: #c9f4aa;
+  /* color :  */
+  /* padding: auto; */
+}
+.new {
+  display: inline-block;
+  margin-top: 4px;
+  /* background-color: #c9f4aa; */
 }

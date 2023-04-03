@@ -20,11 +20,11 @@ function Form(props) {
     return (
       <div className="form">
         <form>
-          <label for="1"> Yield</label>
+          <label htmlFor="1"> Yield</label>
           <input type="radio" name="Form" id="1" onClick={handleClick} />
-          <label for="2"> Cost</label>
+          <label htmlFor="2"> Cost</label>
           <input type="radio" name="Form" id="2" onClick={handleClick} />
-          <label for="3"> Soil Health</label>
+          <label htmlFor="3"> Soil Health</label>
           <input type="radio" name="Form" id="3" onClick={handleClick} />
         </form>
 
